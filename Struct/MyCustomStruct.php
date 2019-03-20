@@ -1,0 +1,10 @@
+<?php declare(strict_types=1);
+
+namespace EntityExtension\Struct;
+
+use Shopware\Core\Framework\Struct\Struct;
+
+class MyCustomStruct extends Struct
+{
+    public $test = 'foo';
+}
