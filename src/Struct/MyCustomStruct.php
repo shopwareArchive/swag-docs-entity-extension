@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace EntityExtension\Struct;
+namespace Swag\EntityExtension\Struct;
 
 use Shopware\Core\Framework\Struct\Struct;
 

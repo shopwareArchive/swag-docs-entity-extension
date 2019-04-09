@@ -16,7 +16,7 @@
 
     <testsuites>
         <testsuite name="Example Plugins Testsuite">
-            <directory>Test</directory>
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
 

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace EntityExtension\Test;
+namespace Swag\EntityExtensionTests;
 
 use Shopware\Core\Framework\Test\TestCaseBase\IntegrationTestBehaviour;
 use PHPUnit\Framework\TestCase;
@@ -12,7 +12,7 @@ class UsedClassesAvailableTest extends TestCase
 
     public function testClassesAreInstantiable(): void
     {
-        $namespace = str_replace('\Test', '', __NAMESPACE__);
+        $namespace = str_replace('Tests', '', __NAMESPACE__);
 
         foreach ($this->getPluginClasses() as $class) {
             $classRelativePath = str_replace(['.php', '/'], ['', '\\'], $class->getRelativePathname());

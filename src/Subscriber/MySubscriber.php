@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace EntityExtension\Subscriber;
+namespace Swag\EntityExtension\Subscriber;
 
-use EntityExtension\Struct\MyCustomStruct;
+use Swag\EntityExtension\Struct\MyCustomStruct;
 use Shopware\Core\Content\Product\ProductEntity;
 use Shopware\Core\Framework\DataAbstractionLayer\Event\EntityLoadedEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;

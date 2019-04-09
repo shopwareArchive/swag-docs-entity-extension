@@ -2,7 +2,7 @@
     "name": "swag/entity-extension",
     "description": "Entity extension plugin",
     "version": "v1.0.0",
-    "type": "shopware-plugin",
+    "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "installer-name": "EntityExtension",
+        "shopware-plugin-class": "Swag\\EntityExtension\\EntityExtension",
         "label": {
             "de_DE": "Plugin mit einer Entitäts Erweiterung",
             "en_GB": "Entity extension plugin"
@@ -21,6 +21,11 @@
         "description": {
             "de_DE": "Plugin mit einer Entitäts Erweiterung",
             "en_GB": "Entity extension plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\EntityExtension\\": "src/"
         }
     }
 }
