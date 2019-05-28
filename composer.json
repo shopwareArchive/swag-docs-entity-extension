@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\EntityExtension\\EntityExtension",
         "label": {
-            "de-DE": "Plugin mit einer Entitäts Erweiterung",
-            "en-GB": "Entity extension plugin"
+            "de-DE": "Label für das Plugin EntityExtension",
+            "en-GB": "Label for the plugin EntityExtension"
         },
         "description": {
-            "de-DE": "Plugin mit einer Entitäts Erweiterung",
-            "en-GB": "Entity extension plugin"
+            "de-DE": "Beschreibung für das Plugin EntityExtension",
+            "en-GB": "Description for the plugin EntityExtension"
         }
     },
     "autoload": {
