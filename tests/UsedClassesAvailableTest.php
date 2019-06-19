@@ -23,7 +23,7 @@ class UsedClassesAvailableTest extends TestCase
         }
 
         // Nothing broke so far, classes seem to be instantiable
-        $this->assertTrue(true);
+        static::assertTrue(true);
     }
 
     private function getPluginClasses(): Finder
